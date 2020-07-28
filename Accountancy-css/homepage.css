@@ -1,0 +1,178 @@
+.contanier{
+    background-color:#ffffff;
+    min-height: 100%;
+    width: 100%;
+    max-width: 1200px;
+}
+body{
+    background-color:#ffffff;
+    min-height: 100%;
+    width: 100%;
+    max-width: 1200px;
+}
+.navbar-brand{
+    text-align: center;
+}
+.b{
+    
+    background-color: #292425;
+    position: fixed;
+    height: 100px;
+    top:0;
+    left:0;
+    right:0;
+    float: left;
+    padding: 2px 0px;
+}
+.btn{
+    margin-top: 0%;
+    float: right;
+    height: 20px;
+}
+
+#b{
+    text-align: center;
+    color: #ffffff;
+    font-size: 40px;
+}
+.box1{
+    background-color: #d1d1d4;
+    margin-top: px;
+    margin-left: 100px;
+    width: 350px;
+    height: 700px;
+    border-radius: 16px;
+}
+.box2{
+    background-color: #bcbcbf;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 5px;
+    width: 310px;
+    height: 78%;
+    border-radius: 16px;
+}
+.hr{
+    color: white;
+    margin-bottom: 0px;
+    width: 250px;
+    
+}
+.box4{
+    background-color: #d1d1d4;
+    border-radius: 16px;
+    width: 1100px;
+    height: 700px;
+    margin-top: 150px;
+    margin-left: 650px;
+
+}
+.ic{
+    float: left;
+}
+.p{
+    color: #000000;
+    margin-left: 80px;
+    margin-top: 20px;
+    font-size: 28px;
+    margin-bottom: 0px;
+}
+
+.box3{
+    width: 140px;
+    height: 140px;
+    margin-left: 85px;
+    margin-top: 20px;
+
+    
+    
+    background-color: #292425;
+}
+.balancedetail{
+    background-color: #ffffff;
+    border-radius: 16px;
+    width: 280px;
+    height: 150px;
+    margin-left: 10px;
+    padding: 5px;
+
+
+
+}
+.totalbalance{
+    background-color: #ffffff;
+    border-radius: 16px;
+    width: 290px;
+    height: 30px;
+    margin-left: 10px;
+
+    margin-top: 20px;
+}
+.customerdiv{
+    float: left;
+    background-color: #a7a7ac;
+    width: 40%;
+    height: 15%;
+    margin-top: 3%;
+    margin-left: 4%;
+    border-radius: 16px;
+    /* padding: 20px; */
+
+}
+.customerbtn{
+    float: right;
+    background-color: #000000;
+}
+.sendbtn{
+    float: right;
+}
+.p411{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+.p2{font-size: 20px;
+    margin-bottom: 0px;
+    margin-left: 25px;
+}
+.p3{
+    font-size: 28px;
+    margin-top: 1px;
+    margin-left: 90px;
+}
+.balancedetailp{
+    font-size: 13px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 5px;
+}
+.hr2{
+    width: 270px;
+    color: #e6e6e8;
+}
+.balancedetailp1{
+    font-size: 13px;
+    margin-bottom: 0px;
+    margin-top: 15px;
+    padding: 5px;
+}
+.p6{
+    font-size: 13px;
+    margin-top: 0px;
+    margin-left: 5px;
+}
+.ptotalbalance{
+    font-size: 15px;
+    margin-left: 10px;
+    
+}
+.bu{
+    width: 25px;
+    float: right;
+}
+.m{
+    width: 300px;
+    left: 1000px;
+    top: 350px;
+    position: fixed;
+}

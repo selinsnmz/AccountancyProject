@@ -1,0 +1,659 @@
+html,body{
+    min-height: 100vh;
+}
+
+.container{
+    
+    width: 100%;
+    max-width: 1200px;
+    margin: 0px auto;
+    height: 100%;
+    
+}
+.navbar-brand{
+    text-align: center;
+}
+.b{
+    
+    background-color: #292425;
+    height: 100px;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    float: left;
+    padding: 2px 0px;
+}
+.btn{
+    float: right;
+    height: 20px;
+}
+
+#b{
+    text-align: center;
+    color: #ffffff;
+    /* font-size: 40px; */
+}
+.box1{
+    background-color: #d1d1d4;
+    margin-top: 0%;
+    margin-left: 8%;
+    width: 17%;
+    height: 690px;
+    border-radius: 5%;
+}
+.box2{
+    background-color: #bcbcbf;
+    margin-left: 4%;
+    margin-top: 4%;
+    padding: 1%;
+    width: 90%;
+    height: 80%;
+    border-radius: 3%;
+}
+.hr{
+    color: white;
+    margin-bottom: 0px;
+    width: 90%;
+    
+}
+.box4{
+    background-color: #d1d1d4;
+    border-radius: 3%;
+    width: 50%;
+    height:700px;
+    margin-top: 10%;
+    margin-left: 35%;
+    padding: 0%;
+    background-image: "maths.svg";
+
+}
+.ic{
+    float: left;
+}
+.username{
+    color: #000000;
+    margin-left: 23%;
+    margin-top: 6%;
+    font-size: 180%;
+    margin-bottom: 0%;
+    
+}
+
+.box3{
+    width: 45%;
+    height: 25%;
+    margin-left: 27%;
+    margin-top: 8%;
+
+    
+    
+    background-color: #292425;
+}
+.balancedetail{
+    background-color: #ffffff;
+    border-radius: 4%;
+    width: 90%;
+    height: 28%;
+    margin-left: 4%;
+    padding: 0.3%;
+
+
+
+}
+.totalbalance{
+    background-color: #ffffff;
+    border-radius: 4%;
+    width: 90%;
+    height: 6%;
+    margin-left: 4%;
+
+    margin-top: 6%;
+}
+.box41{
+float: left;
+margin-left: 2%;
+
+}
+.box42{
+    /* float: left; */
+    padding-left: 50% ;
+    padding-top: 3%;
+}
+
+
+.customerdetail{
+    background-color: #a7a7ac;
+    width: 92%;
+    height: 70%;
+    margin-top: 6%;
+    margin-left: 4%;
+    border-radius: 16px;
+    padding: 20px;
+
+}
+.alinanyapilan{
+    background-color: #ffffff;
+    border-radius:16px;
+    width: 100%;
+    height: 140px;
+    margin-left: 4%;
+    margin-top: 6%;
+    padding: 1%;
+
+}
+.customernotes{
+    background-color: #ffffff;
+    width: 99%;
+    height: 345px;
+    border-radius: 16px;
+    margin-left: 5%;
+    margin-top: 8%;
+    padding: 1%;
+    
+}
+.popupodemealbtn, .popupodemeyapbtn, .popupnoteklebtn{
+    float: left;
+    background-color: #a7a7ac;
+    border-radius: 6%;
+    width: 17%;
+    height: 100px;
+    margin-left: 6%;
+    border: none;
+}
+/* .box4212{
+    background-color: #a7a7ac;
+    border-radius: 16px;
+    width: 130px;
+    height: 130px;
+    margin-left: 340px;
+}
+.box4213{
+    margin-top: 0px;
+    background-color: #a7a7ac;
+    border-radius: 16px;
+    width: 130px;
+    height: 130px;
+    margin-left: 500px;
+} */
+.paymentlist{
+    background-color: #ffffff;
+    border-radius: 4%;
+    margin-top: 30%;
+    margin-left: 8%;
+    width: 80%;
+    height: 470px;
+    padding-top: 1%;
+}
+.p2{font-size: 120%;
+    margin-bottom: 1%;
+    margin-left: 5%;
+}
+.p3{
+    font-size: 190%;
+    margin-top: 1%;
+    margin-left: 28%;
+}
+.balancedetailp{
+    font-size: 13px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 5px;
+}
+.hr2{
+    width: 90%;
+    color: #e6e6e8;
+}
+.h412{
+    background-color: #d1d1d4;
+    width: 400px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+.balancedetailp1{
+    font-size: 13px;
+    margin-bottom: 0px;
+    margin-top: 15px;
+    padding: 5px;
+    font-family: "Myriad-Pro";
+}
+.p6{
+    font-size: 13px;
+    margin-top: 0px;
+    margin-left: 5px;
+}
+.ptotalbalance{
+    font-size: 15px;
+    margin-left: 10px;
+    
+}
+.customerdetailp{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+.p412{
+    font-size: 15px;
+    width: 20%;
+    margin-left: 7px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.p4412{
+    font-size: 15px;
+    width: 20%;
+    margin-left: 7px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.customernotesh1{
+    font-size: 20px;
+    margin-left: 20px;
+    top: 700px;
+}
+.customernotesp{
+    font-size: 15px;
+    margin-left: 20px;
+}
+.paymentlistp{
+    font-size: 13px;
+    margin-left: 10px;
+}
+.bu{
+    width: 25px;
+    float: right;
+}
+.m{
+    width: 300px;
+    left: 1000px;
+    top: 350px;
+    position: fixed;
+}
+.sp{
+    
+    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+    font-size: 25px;
+    
+}
+.st{
+    margin-bottom: 5px;
+    margin-top: 0px;
+    background-color: #e5e6e8;
+    border-radius: 10px;
+    margin-left: 50px;
+    border: none;
+    width: 350px;
+    height: 35px;
+}
+.button{
+    background-color: #292425;
+    border-radius: 10px;
+    margin-left: 930px;
+    margin-top: 10px;
+    color: #ffffff;
+    width: 230px;
+    height: 43px; 
+}
+.customerpayments-btn{
+    float: right;
+}
+/* 1.Popup (arka plan) */
+.modal1 {
+    display: none; /* Varsayılan olarak gizlidir */
+    position: fixed; /* Yerinde kal */
+    z-index: 1; /* Üstte */
+    left: 0;
+    top: 0;
+    width: 100%; /* Ful Genişlik */
+    height: 100%; /* Ful Yükseklik */
+    overflow: auto; /* Gerekirse kaydırmayı etkinleştir */
+    background-color: rgb(0,0,0); /* Yedek renk */
+    background-color: rgba(0,0,0,0.4); /* Siyah w / opaklık */
+}
+/* İçerik / Kutu */
+.modal-content1 {
+    background-color: #fefefe;
+    border-radius: 4%;
+    margin: 15% auto; /* % 15 üstten ve ortalanmış */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 25%; /* Ekran boyutuna bağlı olarak daha fazla veya daha az olabilir */
+    height: 40%;
+}
+/* Kapat Düğmesi */
+.close1 {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close1:hover,
+.close1:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.baslik-odemeyap{
+    text-align: center;
+    font-size: 200%;
+}
+.radio-btn{
+    float: left;
+    /* margin-top: 2.4%; */
+    width: 45%;
+    height: 70px;
+    font-size: 200%;
+    text-align: center;
+    margin-right: 5%;
+    border-radius: 10px;
+    border: 2%;
+    background-color: #d1d1d4;
+}
+.radio-btn2{
+    float: left;
+    width: 45%;
+    height: 70px;
+    font-size: 200%;
+    text-align: center;
+    margin-right: 5%;
+    border-radius: 10px;
+    border: 2%;
+    background-color: #d1d1d4;
+}
+
+/*2.popup*/
+/* Popup (arka plan) */
+.modal2 {
+    display: none; /* Varsayılan olarak gizlidir */
+    position: fixed; /* Yerinde kal */
+    z-index: 1; /* Üstte */
+    left: 0;
+    top: 0;
+    width: 100%; /* Ful Genişlik */
+    height: 100%; /* Ful Yükseklik */
+    overflow: auto; /* Gerekirse kaydırmayı etkinleştir */
+    background-color: rgb(0,0,0); /* Yedek renk */
+    background-color: rgba(0,0,0,0.4); /* Siyah w / opaklık */
+}
+/* İçerik / Kutu */
+.modal-content2 {
+    background-color: #fefefe;
+    border-radius: 4%;
+    margin: 15% auto; /* % 15 üstten ve ortalanmış */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 25%; /* Ekran boyutuna bağlı olarak daha fazla veya daha az olabilir */
+    height: 40%;
+}
+/* Kapat Düğmesi */
+.close2 {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close2:hover,
+.close2:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*3.popup*/
+/* Popup (arka plan) */
+.modal3 {
+    display: none; /* Varsayılan olarak gizlidir */
+    position: fixed; /* Yerinde kal */
+    z-index: 1; /* Üstte */
+    left: 0;
+    top: 0;
+    width: 100%; /* Ful Genişlik */
+    height: 100%; /* Ful Yükseklik */
+    overflow: auto; /* Gerekirse kaydırmayı etkinleştir */
+    background-color: rgb(0,0,0); /* Yedek renk */
+    background-color: rgba(0,0,0,0.4); /* Siyah w / opaklık */
+}
+/* İçerik / Kutu */
+.modal-content3{
+    background-color: #fefefe;
+    border-radius: 4%;
+    margin: 15% auto; /* % 15 üstten ve ortalanmış */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 25%; /* Ekran boyutuna bağlı olarak daha fazla veya daha az olabilir */
+    height: 40%;
+}
+/* Kapat Düğmesi */
+.close3 {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close3:hover,
+.close3:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+#notekle{
+    width: 100%;
+    height: 150px;
+}
+#date3{
+    width: 100%;
+    text-align: center;
+    font-size: 200%;
+}
+.customernotes-btn{
+    float: right;
+}
+#odemetutari-odemeyap{
+    width: 100%;
+    height: 50%;
+}
+#date1{
+    margin-top: 5%;
+    width: 90%;
+}
+.odemeyap-btn{
+    margin-top: 5%;
+    margin-left: 35%;
+}
+#odemetutari-odemeal{
+    width: 90%;
+    height: 80px;
+    margin-bottom: 3%;
+}
+#date2{
+    width: 90%;
+    margin-top: 2%;
+}
+.odemeal-btn{
+    margin-top: 3%;
+    margin-left: 35%;
+}
+
+/* @media only screen and (max-width: 767px){
+    .b{
+        width: 100%;
+        
+    }
+    .box{
+        width: 100%;
+    }
+    .box1{
+        width: 96%;
+       margin-top: 30%;
+        margin-left: 0%;
+        float: none;
+        padding: 1%
+    }
+    .box3{
+        height: 20%;
+    }
+    
+    
+    .box4{
+        width: 97%;
+        height: 210%;
+        margin-left: 0%;
+        padding: 1%;
+        border-radius: 16px;
+    }
+    .box411{
+        width: 78%;
+    }
+    .box412{
+        width: 88%;
+        height: 20%;
+    }
+    .box413{
+        width: 87%;
+        height: 200px;
+    }
+    .box42{
+        padding-left: 0%;
+        margin-top: 3%;
+    }
+    .box41{
+        float: none;
+        margin-top: 2%;
+    }
+    .h412{
+        width: 90%;
+    }
+    .box4211{
+        margin-top: 4%;
+        height: 70px;
+    }
+    .box422{
+        height: 200px;
+    }
+    .p411{
+        font-size: 15px;
+    }
+    .p412{
+        font-size: 15px;
+    }
+}
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1023px){
+    .box1{
+        width: 33%;
+        margin-left: 3%;
+    }
+    .box4{
+        width: 55%;
+        height: 200%;
+        margin-left: 42%;
+        margin-top: 10%;
+        padding-top: 1%;
+        padding-bottom: 2%;
+
+    }
+    .box41{
+        float: none;
+        
+    }
+    .box411{
+        width: 85%;
+        margin-top: 1%;
+        
+    }
+    .box412{
+        width: 90%;
+        margin-top: 3%;
+    }
+    .box413{
+        width: 89%;
+        margin-top: 3%;
+        height: 250px;
+    }
+    .box42{
+        padding-left: 8%;
+    }
+    .box4211{
+        margin-left: 5%;
+        width: 24%;
+    }
+    .box422{
+        width: 95%;
+        height: 250px;
+        margin-left: 0%;
+        margin-top: 24%;
+    }
+    
+    
+} 
+@media only screen and (min-width: 1024px){
+    .box1{
+        height: 640px;
+        margin-top: 0%;
+    }
+    .box3{
+        width: 60%;
+        height: 20%;
+        margin-top: 15%;
+        margin-left: 20%;
+    }
+    .box4{
+        height: 630px;
+        margin-top: 10%;
+        padding-top: 1%;
+    }
+    .box41{
+        margin-left: 2%;
+        width: auto;
+    }
+    .box42{
+        width: auto;
+    }
+    .box411{
+        width: 160%;
+    }
+    .box412{
+        width: 180%;
+        height: 125px;
+        margin-top: 12%;
+    }
+    .h412{
+        width: 90%;
+    }
+    .box413{
+        width: 180%;
+        margin-top: 13%;
+    }
+    .box4211{
+        height: 80px;
+        width: 25%;
+    }
+    .box422{
+        width: 85%;
+        margin-top: 36%;
+    }
+    .p412{
+        font-size: 110%;
+    }
+    .p{
+        font-size: 160%;
+        margin-left: 13%;
+        margin-top: 10%;
+    }
+    .p2{
+        margin-top: 10%;
+        font-size: 90%;
+    }
+    .p3{
+        margin-top: 2%;
+        font-size: 170%;
+    }
+    .hr{
+        margin-top: 12%;
+    }
+
+} */

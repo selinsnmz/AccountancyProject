@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Detail</title>
+    <link rel="stylesheet" type="text/css" href="../Accountancy-css/companydetail.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="contanier">
+        <div class="b"><nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <form class="form-inline" action="/save.html">
+                <a class="navbar-brand " href="#"></a>
+                <h1 id="b">PXR Muhasebe</h1>
+                <button class="btn btn-right" type="submit">+</button>
+            </form>
+          </nav>
+    </div>
+            <div class="box1 ic">
+                <div class="box2">
+                    <div class="box3">
+                        <!-- <img src="loading.gif" class="i"> -->
+                    </div>
+                    <p class="username"></p>
+                    <hr class="hr"/>
+                    <p class="p2">Kullanıcı Bilgileri</p>
+                    <p class="p3">Project XR</p>
+                    <div class="balancedetail">
+                        <p class="balancedetailp1">KDV'li Alınan </p>
+                        <p class="balancedetailp">KDV Miktarı</p>
+                        <p class="balancedetailp">KDV'siz Alınan</p>
+                        <hr class="hr2"/>
+                        <p class="balancedetailp">Ödenen Toplam</p>
+                    </div>
+                    <div class="totalbalance">
+                        <p class="ptotalbalance">Toplam Bakiye</p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="box4" ic>
+                <!-- <img src="maths.svg" class="m"> -->
+                <div class="box41">
+                    <div class="customerdetail">
+                        <!-- <p class="customerdetailp">Şirket Adı</p>
+                        <p class="customerdetailp">Şirket Unvanı</p> -->
+                    </div>
+                    <div class="alinanyapilan">
+                        <p class="p4412"></p>
+                        <hr class="h412"/>
+                        <p class="p412"></p>
+                    </div>
+                    <div class="customernotes">
+                        <p class="customernotesh1">Notlar</p>
+                        
+                        <p class="customernotesp"></p>
+                        
+                    </div>
+                </div>
+                <div class="box42">
+                    <div class="box421">
+                        
+                        <div id="odemeyapbtn">
+                            <button class="popupodemeyapbtn" id="myBtn1">Ödeme Yap</button>
+                            <div id="myModal1" class="modal1">
+                                <div class="modal-content1">
+                                  <span class="close1">&times;</span>
+                                  <p class="baslik-odemeyap">Ödeme Yap</p>
+                                  <input type="text" id="odemetutari-odemeyap">
+                                  <!-- <div class="radio-btn">
+                                    <label class="radio-inline">
+                                        <input type="radio"  class="radio" name="radio1" value="true" >KDV'Lİ
+                                    </label>
+                                  </div>
+                                  <div class="radio-btn2">
+                                    <label class="radio-inline">
+                                        <input type="radio" class="radio" name="radio1"  value="false" >KDV'SİZ
+                                    </label>
+                                  </div> -->
+                                  <input type="date" id="date1" name="bday">
+                                  <button class="odemeyap-btn">Ödeme Yap</button>
+                                </div>
+                              </div>
+                        </div>
+                        <div>
+                            <button class="popupodemealbtn" id="myBtn2">Ödeme Al</button>
+                            <div id="myModal2" class="modal2">
+                                <div class="modal-content2">
+                                  <span class="close2">&times;</span>
+                                  <p class="baslik-odemeyap">Ödeme Al</p>
+                                  <p>Ödeme tutarı</p>
+                                  <input type="text" id="odemetutari-odemeal">
+                                  <div class="radio-btn">
+                                    <label class="radio-inline">
+                                        <input type="radio" class="radio2" value="true" name="radio2" checked>KDV'Lİ
+                                    </label>
+                                  </div>
+                                  <div class="radio-btn2">
+                                    <label class="radio-inline">
+                                        <input type="radio" class="radio2" value="false" name="radio2">KDV'SİZ
+                                    </label>
+                                  </div>
+                                  <input type="date" id="date2" name="bday">
+                                  <button class="odemeal-btn">Ödeme Al</button>
+                                </div>
+                              </div>
+                        </div>
+                        <div>
+                            <button class="popupnoteklebtn" id="myBtn3">Not Ekle</button>
+                            <div id="myModal3" class="modal3">
+                                <div class="modal-content3">
+                                  <span class="close3">&times;</span>
+                                  <p class="baslik-notekle">Not Ekle</p>
+                                  <p>Not</p>
+                                  <input type="text" id="notekle" >
+                                  <input type="date" id="date3" name="bday">
+                                  <button class="notekle-btn">Not Ekle</button>
+                                </div>
+                              </div>
+                            
+                        </div>
+                    </div>
+                    <div class="paymentlist">
+                        <h1 class="paymentlistp">Alınan-Yapılan Ödeme Listesi</h1>
+                    </div>
+                </div>
+            </div>
+        
+    </div>
+    <script src="../Accountancy-js/companydetail.js"></script>
+</body>
+</html>
