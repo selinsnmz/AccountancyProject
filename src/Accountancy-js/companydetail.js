@@ -91,7 +91,7 @@ function getDetail(){
             document.querySelector('.customernotes').innerHTML = noteshtml;
             
         }
-        // document.querySelector('#customernotes-btn').addEventListener('click',deleteNotes);
+        
 
 
      }
@@ -169,14 +169,7 @@ function odemeYap(){
     var inOrOut = "0";
     var infoKDV = "false";
     
-    // console.log(VAT.values());
-
-    // for(var i = 0; i < VAT2.length; i++){
-    //     if(VAT2[i].checked){
-    //         // console.log('checked:' + VAT2[i].value);
-    //         var infoKDV = VAT2[i].value;
-
-    //     }}
+    
 
     console.log(cost);
     console.log(date);
