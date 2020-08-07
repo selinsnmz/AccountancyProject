@@ -13,6 +13,12 @@ function getData(){
         var posts = JSON.parse(xhr.response);
         console.log("result", posts);
 
+        var userhtml =`${posts.data.companyName}`;
+        document.querySelector('.username').innerHTML = userhtml;
+
+        var userhtml1 = `${posts.data.companyInfo}`
+        document.querySelector('.userInfo').innerHTML = userhtml1;
+
 
         var customerhtml="";
         for(i = 0;i < posts.data.customers.length ;i++){

@@ -26,6 +26,7 @@ function getDetail(){
         console.log(post.customer.customerName);
         console.log(post.customer.customerInfo);
 
+
         var customerhtml =`
             <p class="customerdetailp">Şirket Adı: ${post.customer.customerName}</p>
             <p class="customerdetailp">Şirket Unvanı: ${post.customer.customerInfo}</p>
@@ -38,24 +39,32 @@ function getDetail(){
         console.log(customerpayments);
         var paymenthtml="";
         
+        
         for(i=0; i< post.customer.payments.length; i++){
             console.log(post.customer.payments[i].inOrOut);
             if(post.customer.payments[i].inOrOut == false){
+                var date = post.customer.payments[i].date;
+                var a = date.slice(0,10);
                 paymenthtml +=`
                     <div class="customerpaymentsdiv">
                         <button class="customerpayments-btn" id="${post.customer.payments[i].id}" onClick="deletePaymentsList(this)" ><img src"close.png"></button>
-                        <p class="pcustomerpayments">   COST: -${post.customer.payments[i].cost},  DATE: ${post.customer.payments[i].date}</p>
+                        <p class="pcustomerpayments">   COST: -${post.customer.payments[i].cost},  DATE: ${a}</p>
                     </div>`
             }else{
+                var date = post.customer.payments[i].date;
+                var a = date.slice(0,10);
                 paymenthtml +=`
                     <div class="customerpaymentsdiv">
                         <button class="customerpayments-btn" id="${post.customer.payments[i].id}" onClick="deletePaymentsList(this)" ><img src"close.png"></button>
-                        <p class="pcustomerpayments">   COST :  +${post.customer.payments[i].cost},  DATE :  ${post.customer.payments[i].date}</p>
+                        <p class="pcustomerpayments">   COST :  +${post.customer.payments[i].cost},  DATE :  ${a}</p>
                     </div>`
             }
 
             document.querySelector('.paymentlist').innerHTML = paymenthtml;
         }
+
+
+       // 
 
         var paymentlisthtml="";
         var paymentlist2html="";
@@ -63,11 +72,11 @@ function getDetail(){
         
         paymentlisthtml +=`
         Alınan Ödeme: ${post.customer.customerbalance.inMoney}`;
-        document.querySelector('.p4412').innerHTML = paymentlisthtml;
+        document.querySelector('.payment-getcostp').innerHTML = paymentlisthtml;
             
         paymentlist2html +=`
         Yapılan Ödeme: ${post.customer.customerbalance.outMoney} `;
-        document.querySelector('.p412').innerHTML = paymentlist2html;
+        document.querySelector('.payment-getcostp2').innerHTML = paymentlist2html;
 
          
 
@@ -83,7 +92,7 @@ function getDetail(){
 
             noteshtml +=`
                 <div class="customernotesdiv">
-                  <button class="customernotes-btn"  id="${post.customer.notes[i].id}" onClick="deleteNotes(this)"><img src="../img/close.png"></button>
+                  <button class="customernotes-btn"  id="${post.customer.notes[i].id}" onClick="deleteNotes(this)"><img src="../../assets/Accountancy-icons/close.png"></button>
                   <p class="customernotesp">${post.customer.notes[i].notes}</p>
                 </div>
             `
@@ -91,7 +100,7 @@ function getDetail(){
             document.querySelector('.customernotes').innerHTML = noteshtml;
             
         }
-        
+        // document.querySelector('#customernotes-btn').addEventListener('click',deleteNotes);
 
 
      }
@@ -111,6 +120,12 @@ function showPayment(){
 
         var posts = JSON.parse(xhrcost.response);
         console.log("result", posts);
+
+        var userhtml =`${posts.data.companyName}`;
+        document.querySelector('.username').innerHTML = userhtml;
+
+        var userhtml1 = `${posts.data.companyInfo}`
+        document.querySelector('.userInfo').innerHTML = userhtml1;
 
 
 
@@ -169,7 +184,14 @@ function odemeYap(){
     var inOrOut = "0";
     var infoKDV = "false";
     
-    
+    // console.log(VAT.values());
+
+    // for(var i = 0; i < VAT2.length; i++){
+    //     if(VAT2[i].checked){
+    //         // console.log('checked:' + VAT2[i].value);
+    //         var infoKDV = VAT2[i].value;
+
+    //     }}
 
     console.log(cost);
     console.log(date);
@@ -235,7 +257,7 @@ function odemeAl(){
 
 
 
-
+//Ödeme Al Yap
 function odemeAlYap(cost,infoKDV,inOrOut,date){
     console.log(cost); 
     console.log(infoKDV); 
@@ -292,7 +314,7 @@ function deletePaymentsList(item){
     xhrdeletep.onload = function(){
         var result = xhrdeletep.response;
         console.log(result);
-        // window.location.reload();
+        window.location.reload();
     }
     xhrdeletep.send();
 }

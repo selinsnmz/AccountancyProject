@@ -12,6 +12,7 @@ body{
 }
 .navbar-brand{
     text-align: center;
+    margin-left: 40%;
 }
 .b{
     
@@ -25,9 +26,7 @@ body{
     padding: 2px 0px;
 }
 .btn{
-    margin-top: 0%;
-    float: right;
-    height: 20px;
+    margin-left: 48%;
 }
 
 #b{
@@ -65,12 +64,13 @@ body{
     height: 700px;
     margin-top: 150px;
     margin-left: 650px;
+    overflow: auto;
 
 }
 .ic{
     float: left;
 }
-.p{
+.username{
     color: #000000;
     margin-left: 80px;
     margin-top: 20px;
@@ -135,7 +135,7 @@ body{
     margin-bottom: 0px;
     margin-left: 25px;
 }
-.p3{
+.userInfo{
     font-size: 28px;
     margin-top: 1px;
     margin-left: 90px;

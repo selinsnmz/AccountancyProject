@@ -12,6 +12,7 @@ html,body{
 }
 .navbar-brand{
     text-align: center;
+    margin-left: 40%;
 }
 .b{
     
@@ -24,9 +25,10 @@ html,body{
     float: left;
     padding: 2px 0px;
 }
+
 .btn{
-    float: right;
-    height: 20px;
+    margin-left: 48%;
+    width:px;
 }
 
 #b{
@@ -66,6 +68,7 @@ html,body{
     margin-left: 35%;
     padding: 0%;
     background-image: "maths.svg";
+    
 
 }
 .ic{
@@ -132,7 +135,7 @@ margin-left: 2%;
     padding: 20px;
 
 }
-.alinanyapilan{
+.payment-getcost{
     background-color: #ffffff;
     border-radius:16px;
     width: 100%;
@@ -150,6 +153,7 @@ margin-left: 2%;
     margin-left: 5%;
     margin-top: 8%;
     padding: 1%;
+    overflow: auto;
     
 }
 .popupodemealbtn, .popupodemeyapbtn, .popupnoteklebtn{
@@ -184,12 +188,13 @@ margin-left: 2%;
     width: 80%;
     height: 470px;
     padding-top: 1%;
+    overflow: auto;
 }
 .p2{font-size: 120%;
     margin-bottom: 1%;
     margin-left: 5%;
 }
-.p3{
+.userInfo{
     font-size: 190%;
     margin-top: 1%;
     margin-left: 28%;
@@ -233,14 +238,14 @@ margin-left: 2%;
     margin-bottom: 0px;
     font-size: 20px;
 }
-.p412{
+.payment-getcostp2{
     font-size: 15px;
     width: 20%;
     margin-left: 7px;
     margin-top: 0px;
     margin-bottom: 0px;
 }
-.p4412{
+.payment-getcostp{
     font-size: 15px;
     width: 20%;
     margin-left: 7px;
@@ -300,6 +305,7 @@ margin-left: 2%;
 .customerpayments-btn{
     float: right;
 }
+
 /* 1.Popup (arka plan) */
 .modal1 {
     display: none; /* Varsayılan olarak gizlidir */
